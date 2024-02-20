@@ -9,7 +9,10 @@ body   {
 h1 {
 
     Color:#ae5959;
-    font-family:cursive
+    font-family:cursive;
+    border:firebrick ;
+    text-decoration-color:forestgreen;
+    
 
 
 
