@@ -6,14 +6,38 @@ body   {
 	
         }
 
-h1 {
+
+@keyframes color-change {
+     0% {
+    color: blue;
+    }
+  
+    50% {
+    color: red;
+     }
+  
+    100% {
+    color: blue;
+        }
+          }
+  
+          
+          
+
+
+
+
+
+
+    :hover h1 {
 
     Color:#ae5959;
-    font-family:cursive;
     border:firebrick ;
     text-decoration-color:forestgreen;
     
-
+    animation: color-change 3s infinite;
+    
+    
 
 
     }
